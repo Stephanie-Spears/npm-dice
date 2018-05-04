@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Stephanie-Spears/npm-dice/issues"
   },
-  "homepage": "https://github.com/Stephanie-Spears/npm-dice#readme"
+  "homepage": "https://github.com/Stephanie-Spears/npm-dice#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "uglify-js": "^3.3.23"
+  }
 }
