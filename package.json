@@ -1,0 +1,22 @@
+{
+  "name": "dice_simulator_2018",
+  "version": "1.0.0",
+  "description": "Dice simulator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephanie-Spears/npm-dice.git"
+  },
+  "author": "Stephanie Spears",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stephanie-Spears/npm-dice/issues"
+  },
+  "homepage": "https://github.com/Stephanie-Spears/npm-dice#readme"
+}
