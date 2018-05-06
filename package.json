@@ -2,7 +2,7 @@
   "name": "dice_simulator_2018",
   "version": "1.0.0",
   "description": "Dice simulator",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
