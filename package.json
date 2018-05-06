@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "uglify": "node_modules/.bin/uglifyjs src/models/* src/frontend.js -m -c -o compiled/app.js"
+    "uglify": "node_modules/.bin/uglifyjs src/models/* src/frontend.js -m -c -o compiled/app.js",
+    "copy-files": "cp src/*.html compiled/ & cp src/*.css compiled/",
+    "build": "npm run copy-files && npm run uglify"
   },
   "repository": {
     "type": "git",
