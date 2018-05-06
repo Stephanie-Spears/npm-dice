@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "uglify": "node_modules/.bin/uglifyjs src/models/* src/frontend.js -m -c -o build/app.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   },
   "homepage": "https://github.com/Stephanie-Spears/npm-dice#readme",
   "devDependencies": {
-    "mocha": "^5.1.1",
-    "uglify-js": "^3.3.23"
+    "mocha": "^2.2.5",
+    "uglify-js": "^2.4.23"
   }
 }

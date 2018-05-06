@@ -6,8 +6,9 @@
 	}
 
 	Dice.prototype.roll = function () {
-		const randomNumber = Math.floor(Math.random() * this.sides) + 1;
-		return randomNumber;
+		// let randomNumber = Math.floor(Math.random() * this.sides) + 1;
+		// return randomNumber;
+		return Math.floor(Math.random() * this.sides) + 1;
 	};
 
 	if (typeof module !== 'undefined' && module.exports) {
