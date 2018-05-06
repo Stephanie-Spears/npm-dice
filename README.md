@@ -1,3 +1,3 @@
 # npm-dice
 
- https://dice-simulator-2018.herokuapp.com/
+https://npm-dice-2018.herokuapp.com/
