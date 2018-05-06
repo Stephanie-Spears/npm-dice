@@ -1,4 +1,3 @@
-app.use(favicon(path.join(__dirname, 'compiled', 'favicon.ico')));
 
 function displayNumber(number) {
 	const placeholder = document.getElementById("placeholder");
